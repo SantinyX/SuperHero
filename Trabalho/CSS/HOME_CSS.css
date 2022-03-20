@@ -1,0 +1,224 @@
+/*HOME*/
+
+body {
+    max-width: 1280px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Logo {
+    width: 150px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.HomeSuperHero {
+    border-bottom: 3px solid #fe7467;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(/HOME/spidermanheader.jpg);
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    min-height: 700px;    
+}
+
+a {
+    color: white;
+    text-decoration: none;    
+}
+
+.WhoWeAreA {
+    padding: 20px;
+    background-image: url(/HOME/thor_header.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.WhoWeAreB {
+    text-align: center;
+    color: white;
+}
+
+div.BorderBottom {
+    display: block;
+    width: 200px;
+    height: 5px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+
+.WhoWeAreC {
+    display: table-cell;
+    float: right;
+    width: 450px;
+    margin-top: 90px;
+    font-size: 18px;
+    color: white;
+}
+
+.SpiderManF {
+    max-width: 320px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+
+.Dolls {
+    width: 700px;
+    height: auto;
+}
+
+.CatalogueB {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.CatB {
+    display: block;
+    width: 200px;
+    height: 6px;
+    margin: 20px auto;
+    background-color: black;
+}
+
+p {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.CatalogueC {
+    display: table-cell;
+    float: right;
+    width: 450px;
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+
+.DefaultButton {
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+    border: none;     
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 15px;
+    float: right;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;    
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 480px) {
+
+    nav.Nav-DisplayFlex {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    
+    .Logo {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        padding: 0;
+        display: flex;
+        min-height: 0 auto;
+        list-style: none;
+        justify-content: space-evenly;    
+        flex-wrap: nowrap;        
+        font-size: 15px;
+    }
+
+    header {
+        background-image: url(../HOME/spidermanheader_mobile.jpg);
+        height: 400px;
+        min-height: 400px; 
+    }
+    
+    .SpiderManF {
+        max-width: 150px;
+        height: auto;
+        position: relative;
+        top: 150px;            
+    }
+
+    .Dolls {
+        width: 350px;
+        height: auto;
+        
+    }
+
+    .WhoWeAreA {
+        background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .WhoWeAreC {
+        display: table-cell;
+        float: right;
+        width: 300px;
+        margin-top: 50px;
+        font-size: 15px;
+        color: white;
+    }    
+
+    .Catalogue {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DefaultButton {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .CatalogueC {
+        display: table-cell;
+        float: right;
+        width: 250px;
+        margin-top: 30px;
+        font-size: 15px;        
+    }
+
+    
+    
+    
+
+    
+   
+
+    
+   
+    
+}
+

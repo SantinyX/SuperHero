@@ -1,0 +1,176 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Logo {
+    width: 150px;    
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(/CATÁLOGO/captainmarvelheader.jpg);
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    min-height: 700px;    
+    position: relative;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.CaptainMarvel {
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    top: 300px;
+    left: 150px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+    padding: 1px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.Catalogue {
+    display: flex;
+    width: 150px;
+    height: 0 auto;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #fe7467;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;   
+}
+
+.Goku {
+    max-width: 250px;
+    height: auto;
+
+}
+
+.Charizard {
+    max-width: 250px;
+    height: auto;
+}
+
+.JohnWick {
+    max-width: 250px;
+    height: auto;
+}
+
+.Brave {
+    max-width: 250px;
+    height: auto;
+}
+
+.Chucky {
+    max-width: 250px;
+    height: auto;
+}
+
+.CaptainMarvelToll {
+    max-width: 250px;
+    height: auto;
+}
+
+.CatalogueA {
+    border-bottom: 3px solid #fe7467;
+}
+
+.DefaultButton {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+    border: none;     
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    display: inline-block    
+}
+
+.Valor {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Lorem {
+    display: table-cell;
+}
+
+p {
+    font-weight: bold;
+    text-align: 0 auto;    
+}
+
+/*MOBILE*/
+@media screen and (max-width: 480px) {
+
+    header {   
+       background-image: url(../CATÁLOGO/captainmarvelheader2.jpg);
+       height: 400px;
+       min-height: 450px;    
+       margin: auto;
+    }
+
+    nav.Nav-DisplayFlex {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    
+    .Logo {
+        width: 150px;
+    }
+
+    nav ul {
+        padding: 0;
+        display: flex;        
+        list-style: none;
+        justify-content: space-evenly;    
+        flex-wrap: nowrap;        
+        font-size: 15px;
+    }
+
+    .CaptainMarvel {
+     max-width: 250px;
+     height: auto;     
+     top: 150px;
+     left: -10px;        
+    }
+
+    
+}
+
